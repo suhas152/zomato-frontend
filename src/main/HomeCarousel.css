@@ -1,0 +1,27 @@
+.carousel-item img {
+    max-height: 50vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: rgba(33, 37, 41, 0.8) !important;  /* Slightly transparent dark background */
+    backdrop-filter: blur(5px);  /* Adds a blur effect to the background */
+}
+
+.navbar-brand, .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;  /* Slightly transparent white text */
+}
+
+.nav-link:hover {
+    color: #ffffff !important;  /* Full white on hover */
+}
+
+
+  

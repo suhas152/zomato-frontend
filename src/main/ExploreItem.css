@@ -1,0 +1,125 @@
+/* Add these styles to your existing ExploreItem.css file */
+
+.hero-section {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  padding: 30px 0;
+  color: white;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-rating {
+  font-size: 1.2rem;
+}
+
+.explore-nav {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.price-tag {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.average-rating {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.review-item {
+  margin-bottom: 20px;
+}
+
+/* Review form styling */
+.review-form {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.review-form label {
+  font-weight: 500;
+}
+
+.review-form .btn-primary {
+  margin-top: 10px;
+}
+
+/* Rating distribution styling */
+.rating-bar {
+  height: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.rating-bar-fill {
+  height: 100%;
+  background-color: #ffc107;
+  border-radius: 4px;
+}
+
+.zoom-hint {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.zoomed-image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.zoomed-image-container {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.zoomed-image {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.close-zoom-btn {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close-zoom-btn:hover {
+  color: #f8f9fa;
+}
